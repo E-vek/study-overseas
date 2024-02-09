@@ -1,0 +1,580 @@
+/******* Fonts Import Start **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+/********* Fonts Face CSS End **********/
+
+body {
+  font-family: Poppins;
+  font-weight: 400;
+  margin: 0;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(236, 213, 232) 0%, rgb(50, 112, 118) 100%);
+  
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.header{
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+} 
+
+nav button{
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  background:#db0001;
+  color:#fff;
+  padding: 7px 20px;
+  font-size: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.language-btn{
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 1px solid white;
+  padding: 7px 10px;
+}
+
+.logo{
+  cursor: pointer;
+  width: 65px;
+  /* margin-right: 1000px; */
+}
+
+nav{
+  position: fixed;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px 20px;
+  z-index: 2;
+  width: 100vw;
+}
+
+.nav-mid :hover{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header-contain{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.header-contain h1{
+  font-size: 50px;
+  line-height: 100px;
+  font-weight: 600;
+  max-width: 650px;
+}
+
+.header-contain h3{
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.email-signup{
+  background: #fff;
+  border-radius: 4px;
+  align-items: center;
+  margin-top: 40px;
+  overflow: hidden;
+  display: flex;
+}
+
+.email-signup input{
+  flex: 1;
+  border: 0;
+  outline: 0;
+  margin-left: 20px;
+}
+
+.email-signup button{
+  background:#db0001 ;
+  border: 0;
+  outline: 0;
+  color:#fff;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 15px 30px;
+}
+
+
+/******* Common Element CSS Start ******/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  border: 0px;
+  /* max-height: 100%; */
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+a:focus,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+a:hover {
+  color: #e73700;
+}
+
+h2 {
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+/* button {
+  display: none;
+} */
+
+/******* Common Element CSS End *********/
+
+/* -------- title style ------- */
+.line-title {
+  position: relative;
+  width: 400px;
+}
+
+.line-title::before,
+.line-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  border-radius: 2px;
+}
+
+.line-title::before {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.line-title::after {
+  width: 32px;
+  background: #e73700;
+}
+
+/******* Middle section CSS Start ******/
+/* -------- Landing page ------- */
+.owl-carousel .owl-stage-outer {
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.game-section {
+  padding: 60px 50px;
+}
+
+.game-section .owl-stage {
+  margin: 15px 0;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.game-section .item {
+  margin: 0 15px 60px;
+  width: 320px;
+  height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  background: #343434 no-repeat center center / cover;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.game-section .item.active {
+  width: 500px;
+  box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 12px 40px 40px rgba(0, 0, 0, 0.25);
+}
+
+.game-section .item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.game-section .item-desc {
+  padding: 0 24px 12px;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transform: translateY(calc(100% - 54px));
+  -webkit-transform: translateY(calc(100% - 54px));
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.game-section .item.active .item-desc {
+  transform: none;
+  -webkit-transform: none;
+}
+
+.game-section .item-desc p {
+  opacity: 0;
+  -webkit-transform: translateY(32px);
+  transform: translateY(32px);
+  transition: all 0.4s ease-in-out 0.2s;
+  -webkit-transition: all 0.4s ease-in-out 0.2s;
+}
+
+.game-section .item.active .item-desc p {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.game-section .owl-theme.custom-carousel .owl-dots {
+  display: none;
+}
+
+/******** Middle section CSS End *******/
+
+/********footer*******/
+
+.links {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+}
+
+.link-logo a svg {
+  fill: white;
+  transition: fill 300ms;
+  padding: 10px;
+}
+
+
+.link-logo:hover a svg {
+  fill: black;
+}
+
+.footer {
+  background-color: #14213d;
+  display: flex;
+  height: 300px;
+  position: relative;
+}
+
+
+.footer-mid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  height: 100%;
+}
+
+.footer-mid p {
+  margin-top: 10px;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+
+.footer-right a {
+  /* margin-bottom: 30px; */
+  text-decoration: none;
+  color: white;
+}
+
+.payment_icons {
+  margin-top: 10px;
+}
+
+/*******Footer End*******/
+
+/***** responsive css Start ******/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  h2 {
+    margin-bottom: 32px;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  /* -------- Landing page ------- */
+  .game-section {
+    padding: 50px 30px;
+  }
+
+  .game-section .item {
+    margin: 0 12px 60px;
+    width: 260px;
+    height: 360px;
+  }
+
+  .game-section .item.active {
+    width: 400px;
+  }
+
+  .game-section .item-desc {
+    transform: translateY(calc(100% - 46px));
+    -webkit-transform: translateY(calc(100% - 46px));
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  h2 {
+    margin-bottom: 32px;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .line-title {
+    width: 330px;
+  }
+
+  /* -------- Landing page ------- */
+  .game-section {
+    padding: 50px 30px 40px;
+  }
+
+  .game-section .item {
+    margin: 0 12px 60px;
+    width: 240px;
+    height: 330px;
+  }
+
+  .game-section .item.active {
+    width: 360px;
+  }
+
+  .game-section .item-desc {
+    transform: translateY(calc(100% - 42px));
+    -webkit-transform: translateY(calc(100% - 42px));
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    margin: 0 0 8px;
+    font-size: 19px;
+    line-height: 24px;
+  }
+
+  .line-title {
+    width: 250px;
+  }
+
+  /* -------- Landing page ------- */
+  .game-section {
+    padding: 30px 15px 20px;
+  }
+
+  .game-section .item {
+    margin: 0 10px 40px;
+    width: 200px;
+    height: 280px;
+  }
+
+  .game-section .item.active {
+    width: 270px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .game-section .item-desc {
+    padding: 0 14px 5px;
+    transform: translateY(calc(100% - 42px));
+    -webkit-transform: translateY(calc(100% - 42px));
+  }
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+
+.searchbar{
+  margin-top: 50px;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+}
+
+.search-button{
+  background-color: black;
+  border-radius: 3px;
+  color: white;
+  border: none;
+  padding: 4px 8px 4px 8px;
+  /* border-radius: 30px; */
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 50px 0px;
+  position: relative;
+}
+
+.c-name {
+  position: absolute;
+  left: 40vw;
+  bottom: 20%;
+  z-index: 5;
+  font-size: 100px;
+  color: black;
+  /* text-shadow: 4px 5px 4px #FFFFFF; */
+  color: #FFFFFF;
+}
+
+.carousel__list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  perspective: 300px;
+}
+
+.carousel__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0px;
+  width: 550px;
+  height: 350px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+  position: absolute;
+  transition: all 0.3s ease-in;
+}
+
+.carousel__item[data-pos="0"] {
+  z-index: 5;
+}
+
+.carousel__item[data-pos="-1"],
+.carousel__item[data-pos="1"] {
+  filter: blur(1px) grayscale(10%);
+}
+
+.carousel__item[data-pos="-1"] {
+  transform: translateX(-50%) scale(0.6);
+  z-index: 4;
+}
+
+.carousel__item[data-pos="1"] {
+  transform: translateX(50%) scale(0.6);
+  z-index: 4;
+}
+
+.carousel__item[data-pos="-2"],
+.carousel__item[data-pos="2"] {
+  filter: blur(3px) grayscale(20%);
+}
+
+.carousel__item[data-pos="-2"] {
+  transform: translateX(-90%) scale(0.5);
+  z-index: 3;
+}
+
+.carousel__item[data-pos="2"] {
+  transform: translateX(90%) scale(0.5);
+  z-index: 3;
+}
