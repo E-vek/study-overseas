@@ -8,7 +8,7 @@ body {
   margin: 0;
   width: 100%;
   background: linear-gradient(180deg, rgb(236, 213, 232) 0%, rgb(50, 112, 118) 100%);
-  
+
 }
 
 body::-webkit-scrollbar {
@@ -16,27 +16,27 @@ body::-webkit-scrollbar {
 }
 
 
-.header{
+.header {
   width: 100%;
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
-} 
+}
 
-nav button{
+nav button {
   border-radius: 4px;
   border: 0;
   outline: 0;
-  background:#db0001;
-  color:#fff;
+  background: #db0001;
+  color: #fff;
   padding: 7px 20px;
   font-size: 12px;
   margin-left: 10px;
   cursor: pointer;
 }
 
-.language-btn{
+.language-btn {
   display: inline-flex;
   align-items: center;
   background: transparent;
@@ -44,50 +44,50 @@ nav button{
   padding: 7px 10px;
 }
 
-.logo{
+.logo {
   cursor: pointer;
   width: 65px;
   /* margin-right: 1000px; */
 }
 
-nav{
+nav {
   position: fixed;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding:10px 20px;
+  padding: 10px 20px;
   z-index: 2;
   width: 100vw;
 }
 
-.nav-mid :hover{
+.nav-mid :hover {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.header-contain{
+.header-contain {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   margin-top: 50px;
 }
 
-.header-contain h1{
+.header-contain h1 {
   font-size: 50px;
   line-height: 100px;
   font-weight: 600;
   max-width: 650px;
 }
 
-.header-contain h3{
+.header-contain h3 {
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.email-signup{
+.email-signup {
   background: #fff;
   border-radius: 4px;
   align-items: center;
@@ -96,18 +96,18 @@ nav{
   display: flex;
 }
 
-.email-signup input{
+.email-signup input {
   flex: 1;
   border: 0;
   outline: 0;
   margin-left: 20px;
 }
 
-.email-signup button{
-  background:#db0001 ;
+.email-signup button {
+  background: #db0001;
   border: 0;
   outline: 0;
-  color:#fff;
+  color: #fff;
   font-size: 16px;
   cursor: pointer;
   padding: 15px 30px;
@@ -290,6 +290,54 @@ h3 {
 }
 
 /******** Middle section CSS End *******/
+
+
+/******** form fill CSS ********/
+.fill-form {
+  background-color: white;
+  height: 270px;
+  margin: 70px 30px 30px 30px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.fill-form button {
+  background-color: #f60042;
+  padding: 15;
+  margin: 0 10 0 0;
+  border-radius: 25px;
+  border: none;
+  color: white;
+}
+
+.button {
+  padding: 75px 40px 0px 0px;
+}
+
+.fill-form h1 {
+  font-size: 30px;
+  padding: 15px 0px 0px 15px;
+}
+
+.fill-form p {
+  padding: 15px 0px 0px 15px;
+}
+
+.fill-form-content {
+  /* display: flex;
+  flex-direction: column; */
+}
+
+
+
+
+
+/******** form fill CSS End********/
+
 
 /********footer*******/
 
@@ -480,7 +528,7 @@ h3 {
 
 /* ------------------------------------------------------------------------------------------------------------------------- */
 
-.searchbar{
+.searchbar {
   margin-top: 50px;
   display: flex;
   align-items: stretch;
@@ -488,7 +536,7 @@ h3 {
   width: 100%;
 }
 
-.search-button{
+.search-button {
   background-color: black;
   border-radius: 3px;
   color: white;
