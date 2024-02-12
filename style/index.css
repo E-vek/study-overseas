@@ -222,7 +222,7 @@ h3 {
 .owl-carousel .owl-stage-outer {
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-transform-: translate3d(0, 0, 0);
 }
 
 .game-section {
@@ -342,15 +342,6 @@ h3 {
 .fill-form p {
   padding: 15px 0px 0px 15px;
 }
-
-.fill-form-content {
-  /* display: flex;
-  flex-direction: column; */
-}
-
-
-
-
 
 /******** form fill CSS End********/
 
