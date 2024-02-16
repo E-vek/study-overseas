@@ -3,7 +3,7 @@
 /********* Fonts Face CSS End **********/
 
 body {
-  font-family: Poppins;
+  font-family: Poppins !important;
   font-weight: 400;
   margin: 0;
   width: 100%;
@@ -56,16 +56,16 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding:10px 20px;
+  padding: 10px 20px;
   z-index: 10;
   width: 100%;
   left: 0;
   top: 0;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  -webkit-box-shadow: 0px 10px 38px -13px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 38px -13px rgba(0,0,0,0.75);
-  box-shadow: 0px 10px 38px -13px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 38px -13px rgba(0, 0, 0, 0.75);
 }
 
 .nav-mid {
@@ -89,13 +89,13 @@ nav {
   align-items: center;
 }
 
-.header-contain h1{
+.header-contain h1 {
   font-size: 70px;
   line-height: 100px;
   font-weight: 600;
 }
 
-.header-contain p{
+.header-contain p {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 20px;
@@ -309,42 +309,157 @@ h3 {
 
 /******** form fill CSS ********/
 .fill-form {
-  box-shadow: 0px 10px 38px -13px rgba(0,0,0,0.75);
-  height: 270px;
+  box-shadow: 0px 10px 38px -13px rgba(0, 0, 0, 0.75);
+  max-width: 100%;
   margin: 70px 30px 30px 30px;
   border-radius: 25px;
+  padding: 50px 0px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   backdrop-filter: blur(50px);
 }
 
 .fill-form button {
   background-color: #f60042;
-  padding: 15;
-  margin: 0 10 0 0;
-  border-radius: 25px;
+  margin: 10px 10px 10px 530px;
+  padding: 10px;
+  border-radius: 10px;
   border: none;
+  width: 100px;
   color: white;
+  font-size: 16px;
   cursor: pointer;
-}
-
-.button {
-  padding: 75px 40px 0px 0px;
+  font-family: poppins;
 }
 
 .fill-form h1 {
   font-size: 30px;
-  padding: 15px 0px 0px 15px;
+  padding: 0px 0px 0px 30px;
 }
 
 .fill-form p {
-  padding: 15px 0px 0px 15px;
+  font-size: 20px;
+  padding: 0px 0px 0px 30px;
+  margin-bottom: 30px;
+
+}
+
+
+.form-internal-input {
+  all: unset;
+  padding: 10px 10px 10px 10px;
+  margin-left: 25px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px 10px;
+  background-color: DodgerBlue;
+  color: white;
+  width: 600px;
+}
+
+.form-internal-input::placeholder {
+  color: #FFFFFF;
+}
+
+.form-internal-input:focus {
+  border: 0px;
+}
+
+.form-internal {
+  padding: 10px 10px 20px 10px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+  /* flex-direction: column; */
+  margin-left: 20px;
+}
+
+form{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fill-form-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /******** form fill CSS End********/
 
+/* Dropdown menu testing */
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none;
+  /*hide original SELECT element:*/
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+  border-radius: 10px;
+  margin: 10px;
+  min-width: 200px;
+}
+
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 20px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 25px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 90%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/****************************/
 
 /********footer*******/
 
