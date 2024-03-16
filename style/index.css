@@ -7,8 +7,9 @@ body {
   font-weight: 400;
   margin: 0;
   width: 100%;
-  background: linear-gradient(180deg, rgb(236, 213, 232) 0%, rgb(50, 112, 118) 100%);
-
+  /* background: linear-gradient(180deg, rgb(236, 213, 232) 0%, rgb(50, 112, 118) 100%); */
+  background-color: #3c8ce7;
+  background: linear-gradient(115deg, #3c8ce7, #00eaff);
 }
 
 body::-webkit-scrollbar {
