@@ -16,9 +16,68 @@ body {
     /* background: linear-gradient(to right, #3a7bd5, #3a6073); */
 }
 
+/******* Fonts Import Start **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+/********* Fonts Face CSS End **********/
+
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  .clear {
+    clear: both;
+  }
+  
+  
+  ul,
+  ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+  
+  a:focus,
+  a:active,
+  a:visited,
+  a:hover {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  a:hover {
+    color: #5ae15a;
+  }
+  
+  h2 {
+    margin-bottom: 48px;
+    padding-bottom: 16px;
+    /* font-size: 20px; */
+    line-height: 28px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    color: #fc1855;
+  }
+  
+  h1{
+    
+    font-size: 40px;
+  }
+
 .sign-up-form button {
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     background-color: #f60042;
@@ -38,7 +97,7 @@ body {
 .form-text{
     padding: 50px 0px 50px 50px;
     margin-right: 200px;
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 .form{
@@ -55,12 +114,12 @@ body {
 }
 
 .sign-up-form input{
-    padding: 10px;
+    padding: 15px;
     margin: 0px 0px 20px 0px;
     border: none;
     outline: none;
     border-radius: 5px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .form-element a{
