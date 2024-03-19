@@ -24,22 +24,40 @@
             <button>Sign In</button>
         </div>
     </nav>
-    <!-- -------------------------------------------Banner------------------------------------ -->
-    <div class="header">
-        <div>
-            <img src="assets/editedbgpng.png" alt="" width="100%" height="100%" style="background-repeat: no-repeat;">
-            <div class="header-contain">
-                <h1>Make your study-abroad dream a reality</h1>
-                <!-- <h3>From selecting the right course to your first day at the university, Edvoy helps in every step of the journey.</h3> -->
-                <p>From selecting the right course to your first day at the university, Study Overseas Education helps
-                    in every step of the
-                    journey.</p>
-                <form class="email-signup">
-                    <input type="search" placeholder="Search Here" required>
-                    <button>Search</button>
-                </form>
+    <div class="header-contain">
+        <h1>Make your study-abroad dream a reality</h1>
+        <!-- <h3>From selecting the right course to your first day at the university, Edvoy helps in every step of the journey.</h3> -->
+        <p>From selecting the right course to your first day at the university, Study Overseas Education helps
+            in every step of the
+            journey.</p>
+        <form class="email-signup">
+            <input data-search type="search" placeholder="Search Here" required>
+            <div search-results class="search-results-container">
+                <!-- <div class="results hide">
+                    <h1 class="uni-name">New York University</h1>
+                    <p class="location" data-name>New york, USA</p>
+                </div>
+                <div class="results hide">
+                    <h1 class="uni-name">New York University</h1>
+                    <p class="location" data-name>New york, USA</p>
+                </div> -->
+                <template data-user-template>
+                    <div class="results hide">
+                        <h1 class="uni-name" uni-name product-image>
+                        </h1>
+                        <p class="location" uni-location ></p>
+                    </div>
+                </template>
             </div>
-        </div>
+
+
+            
+        </form>
+    </div>
+    <!-- !-------------------------------------------Banner------------------------------------ -->
+    <div class="header">
+        <img src="assets/editedbgpng.png" alt="" width="100%" height="100%" style="background-repeat: no-repeat;">
+        
     </div>
 
     <!-- ----------------------------------------Round Carousel-------------------------------------- -->
@@ -70,7 +88,7 @@
                 <form action="">
                     <input class="form-internal-input" required type="text" placeholder="Enter your name">
                     <input class="form-internal-input" required type="email" placeholder="E-mail">
-                    <select class="form-internal-input" name="TEST" id="TEST">
+                    <select class="form-internal-input">
                         <option value="Country">Country</option>
                         <option value="Unitated States">United States of America</option>
                         <option value="Unitated kingdom">United Kingdom</option>
@@ -78,36 +96,36 @@
                         <option value="Australia">Australia</option>
                         <option value="Ireland">Ireland</option>
                     </select>
-                    <select class="form-internal-input" name="TEST" id="TEST">
+                    <select class="form-internal-input">
                         <option value="Degree">Degree</option>
                         <option value="Undergraduate">Undergraduate</option>
                         <option value="Graduate">Graduate</option>
                         <option value="PhD">PhD</option>
                         <option value="Certificate course">Certificate course</option>
                     </select>
-                        <select class="form-internal-input" name="Study-field" id="Study-field">
-                            <option value="Major">Major/study field</option>
-                            <option value="Undergraduate">Computer Science</option>
-                            <option value="Graduate">Business Administration</option>
-                            <option value="PhD">Business Administration (Managment)</option>
-                            <option value="Certificate course">Dental Science</option>
-                            <option value="Certificate course">Education</option>
-                            <option value="Certificate course">Aerospace</option>
-                            <option value="Certificate course">Aeronautical</option>
-                            <option value="Certificate course">Electrical</option>
-                            <option value="Certificate course">Civil</option>
-                            <option value="Certificate course">Chemistry</option>
-                            <option value="Certificate course">Bioinformatics</option>
-                            <option value="Certificate course">Health Administration</option>
-                            <option value="Certificate course">Law</option>
-                            <option value="Certificate course">Medical Sciences</option>
-                        </select>
-                            <button type="submit">Submit</button>
+                    <select class="form-internal-input" name="Study-field" id="Study-field">
+                        <option value="Major">Major/study field</option>
+                        <option value="Undergraduate">Computer Science</option>
+                        <option value="Graduate">Business Administration</option>
+                        <option value="PhD">Business Administration (Managment)</option>
+                        <option value="Certificate course">Dental Science</option>
+                        <option value="Certificate course">Education</option>
+                        <option value="Certificate course">Aerospace</option>
+                        <option value="Certificate course">Aeronautical</option>
+                        <option value="Certificate course">Electrical</option>
+                        <option value="Certificate course">Civil</option>
+                        <option value="Certificate course">Chemistry</option>
+                        <option value="Certificate course">Bioinformatics</option>
+                        <option value="Certificate course">Health Administration</option>
+                        <option value="Certificate course">Law</option>
+                        <option value="Certificate course">Medical Sciences</option>
+                    </select>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </div>
     </div>
-    
+
     <!-- ----------------------------------------Universities--------------------------------------- -->
 
 
@@ -116,87 +134,102 @@
             <h1 class="line-title">Discover Top Universities</h1>
         </div>
         <div class="owl-carousel custom-carousel owl-theme">
-            <div class="item active"
-                style="background-image:url(assets/harvard.jpg);">
+            <div class="item active" style="background-image:url(assets/harvard.jpg);">
                 <div class="item-desc">
                     <h3>Harvard University</h3>
-                    <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States.</p>
+                    <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts.
+                        Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman
+                        John Harvard, it is the oldest institution of higher learning in the United States.</p>
                 </div>
             </div>
-            <div class="item"
-                style="background-image: url(assets/Hoover-Tower-Stanford-University-California.webp);">
+            <div class="item" style="background-image: url(assets/Hoover-Tower-Stanford-University-California.webp);">
                 <div class="item-desc">
                     <h3>Stanford University</h3>
-                    <p>Stanford University is a private research university in Stanford, California. It was founded in 1885 by Leland Stanford—a railroad magnate who served as the eighth governor of and then-incumbent senator from California—and his wife, Jane, in memory of their only child, Leland.
+                    <p>Stanford University is a private research university in Stanford, California. It was founded in
+                        1885 by Leland Stanford—a railroad magnate who served as the eighth governor of and
+                        then-incumbent senator from California—and his wife, Jane, in memory of their only child,
+                        Leland.
                     </p>
                 </div>
             </div>
-            <div class="item"
-                style="background-image: url(assets/oxford.jpg);">
+            <div class="item" style="background-image: url(assets/oxford.jpg);">
                 <div class="item-desc">
                     <h3>University of Oxford</h3>
-                    <p>The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching as early as 1096, making it the oldest university in the English-speaking world and the world's second-oldest university in continuous operation.</p>
+                    <p>The University of Oxford is a collegiate research university in Oxford, England. There is
+                        evidence of teaching as early as 1096, making it the oldest university in the English-speaking
+                        world and the world's second-oldest university in continuous operation.</p>
                 </div>
             </div>
-            <div class="item"
-                style="background-image: url(assets/mit.jpeg);">
+            <div class="item" style="background-image: url(assets/mit.jpeg);">
                 <div class="item-desc">
                     <h3>MIT</h3>
-                    <p>The Massachusetts Institute of Technology is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.</p>
+                    <p>The Massachusetts Institute of Technology is a private land-grant research university in
+                        Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the
+                        development of many areas of modern technology and science.</p>
                 </div>
             </div>
-            <div class="item"
-                style="background-image: url(assets/BeckmanInstitute\ California.jpg);">
+            <div class="item" style="background-image: url(assets/BeckmanInstitute\ California.jpg);">
                 <div class="item-desc">
                     <h3>Imperial College</h3>
-                    <p>Imperial College London is a public research university in London, England. Its history began with Prince Albert, consort of Queen Victoria, who developed his vision for a cultural area that included the Royal Albert Hall, the Victoria and Albert Museum, the Natural History Museum and several royal colleges.</p>
+                    <p>Imperial College London is a public research university in London, England. Its history began
+                        with Prince Albert, consort of Queen Victoria, who developed his vision for a cultural area that
+                        included the Royal Albert Hall, the Victoria and Albert Museum, the Natural History Museum and
+                        several royal colleges.</p>
                 </div>
             </div>
-            <div class="item"
-                style="background-image: url(assets/cambridge-uni.jpeg);">
+            <div class="item" style="background-image: url(assets/cambridge-uni.jpeg);">
                 <div class="item-desc">
                     <h3>University of Cambridge</h3>
-                    <p>The University of Cambridge is a public collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the world's third-oldest university in continuous operation.</p>
+                    <p>The University of Cambridge is a public collegiate research university in Cambridge, England.
+                        Founded in 1209, the University of Cambridge is the world's third-oldest university in
+                        continuous operation.</p>
                 </div>
             </div>
         </div>
         </div>
     </section>
 
-        <div class="form">
-            <div class="form-text">
-                <h1>Sign up to create your profile</h1>
-                <h2>Already have a profile? <a href="#" style="text-decoration: none;">sign in.</a></h2>
-            </div>
-            <form class="sign-up-form" action="submit">
-                <div class="form-element" >
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="last Name">
-                </div>
-                <div class="form-element leo">
-                    <input type="number" required placeholder="Phone Number">
-                </div>
-                <div class="form-element leo">
-                    <input type="email" required placeholder="E-mail address">
-                </div>
-                <div class="form-element leo">
-                    <input type="password" required placeholder="Enter password">
-                </div>
-                <div class="form-element">
-                    <button>
-                        Sign in
-                    </button>
-                </div>
-            </form>
+    <div class="form">
+        <div class="form-text">
+            <h1>Sign up to create your profile</h1>
+            <h2>Already have a profile? <a href="#" style="text-decoration: none;">sign in.</a></h2>
         </div>
+        <form class="sign-up-form" action="submit">
+            <div class="form-element">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="last Name">
+            </div>
+            <div class="form-element leo">
+                <input type="number" required placeholder="Phone Number">
+            </div>
+            <div class="form-element leo">
+                <input type="email" required placeholder="E-mail address">
+            </div>
+            <div class="form-element leo">
+                <input type="password" required placeholder="Enter password">
+            </div>
+            <div class="form-element">
+                <button>
+                    Sign in
+                </button>
+            </div>
+        </form>
+    </div>
 
     <!-- -------------------------------------------Footer------------------------------------------------ -->
     <footer>
         <div class="custom-shape-divider-bottom-1707988626">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
-                <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
-                <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
             </svg>
         </div>
         <div class="footer">
@@ -245,12 +278,13 @@
                 <a href="#">About Us<a>
             </div>
         </div>
-    </footer> 
+    </footer>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="script.js"></script>
+<script src="search.js"></script>
 
 </html>

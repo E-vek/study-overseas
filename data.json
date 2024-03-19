@@ -3,6 +3,7 @@
         {
             "name": "Harvard University",
             "location": "Boston, Massachusetts",
+            "url": "/harvard",
             "rank": 3,
             "appfee": 90,
             "courses": [

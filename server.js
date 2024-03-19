@@ -18,8 +18,6 @@ app.get('/',(req, res) => {
 })
 
 
-
-
 //! LISTEN
 app.listen(port,() => {
     console.log(`Listening to http://localhost:${port}/`)
