@@ -16,6 +16,8 @@ $(".custom-carousel").owlCarousel({
 //   -------------------------------------------------------------------------------------------------------------------------------
 
 
+
+
 const state = {};
 const carouselList = document.querySelector('.carousel__list');
 const carouselItems = document.querySelectorAll('.carousel__item');
@@ -48,6 +50,8 @@ const update = function(newActive) {
 
     item.dataset.pos = getPos(itemPos, newActivePos)
   });
+
+  console.log(current.dataset.country)  
 };
 
 const getPos = function (current, active) {
@@ -58,6 +62,14 @@ const getPos = function (current, active) {
   }
 
   return diff;
+}
+
+
+function getcountry(country) {
+    const current = elems.find((elem) => elem.dataset.pos == 0);
+    if (current.dataset.country == country) {
+        window.location.href = `/${country}`;
+    }
 }
 
 

@@ -14,8 +14,8 @@
     <!----------------------------------------------Navbar-------------------------------------->
     <nav>
         <div class="nav-right">
-            <a href="index.html">
-                <img class="logo" src="assets/logo.png" alt="" width="65px">
+            <a href="/">
+                <img class="logo" src="assets/main-logo.png" alt="" width="65px">
             </a>
         </div>
         <div class="nav-mid">
@@ -70,12 +70,12 @@
     </div>
     <div class="carousel">
         <ul class="carousel__list">
-            <img class="carousel__item" data-pos="-2" src="assets/australia_banner_811daa24bc.png"style="max-width: 100%;">
-            </li>
-            <img class="carousel__item" data-pos="-1" src="assets/canada.jpg"></li>
-            <img class="carousel__item" data-pos="0" src="assets/ireland.jpg"></li>
-            <img class="carousel__item" data-pos="1" src="assets/UK.png"></li>
-            <img class="carousel__item" data-pos="2" src="assets/united_states_gallery_8_69d0fbbae5.jpg"></li>
+            <img onclick="getcountry(aus)" class="carousel__item" data-country="aus" data-pos="-2" src="assets/australia_banner_811daa24bc.png"
+                style="max-width: 100%;">
+            <img onclick="getcountry(can)" class="carousel__item" data-country="can" data-pos="-1" src="assets/canada.jpg">
+            <img onclick="getcountry(ire)" class="carousel__item" data-country="ire" data-pos="0" src="assets/ireland.jpg">
+            <img onclick="getcountry(uk)" class="carousel__item" data-country="uk" data-pos="1" src="assets/UK.png">
+            <img onclick="getcountry(usa)" class="carousel__item" data-country="usa" data-pos="2" src="assets/united_states_gallery_8_69d0fbbae5.jpg">
         </ul>
     </div>
 
