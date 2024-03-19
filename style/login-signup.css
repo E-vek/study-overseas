@@ -70,15 +70,14 @@ body {
     color: #fc1855;
   }
   
-  h3 {
-    margin: 0 0 10px;
-    font-size: 28px;
-    line-height: 36px;
+  h1{
+    
+    font-size: 40px;
   }
 
 .sign-up-form button {
     padding: 15px 25px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     color: white;
     background-color: #f60042;
