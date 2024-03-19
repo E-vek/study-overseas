@@ -209,7 +209,16 @@ h3 {
 /* -------- title style ------- */
 .line-title {
   position: relative;
-  width: 400px;
+  width: 550px;
+  padding: 10px;
+}
+
+.country-carousel{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 100px 0px 50px 0px;
 }
 
 .line-title::before,
@@ -245,7 +254,6 @@ h3 {
 }
 
 .game-section .owl-stage {
-  margin: 15px 0;
   display: flex;
   display: -webkit-flex;
 }
@@ -290,8 +298,8 @@ h3 {
   position: relative;
   z-index: 1;
   overflow: hidden;
-  transform: translateY(calc(100% - 54px));
-  -webkit-transform: translateY(calc(100% - 54px));
+  transform: translateY(calc(100% - 75px));
+  -webkit-transform: translateY(calc(100% - 75px));
   transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
 }
@@ -319,6 +327,19 @@ h3 {
   display: none;
 }
 
+.owl-nav{
+  display: flex;
+  justify-content: center;
+
+}
+
+.owl-nav button{
+  all: unset;
+  font-size: 40px;
+  margin: 0px 10px;
+  padding: 10px;
+}
+
 /******** Middle section CSS End *******/
 
 
@@ -326,7 +347,7 @@ h3 {
 .fill-form {
   box-shadow: 0px 10px 38px -13px rgba(0, 0, 0, 0.75);
   max-width: 100%;
-  margin: 70px 30px 30px 30px;
+  margin: 130px 50px 0px 50px;
   border-radius: 25px;
   padding: 50px 0px;
   display: flex;
@@ -505,8 +526,8 @@ form{
   }
 
   .game-section .item-desc {
-    transform: translateY(calc(100% - 46px));
-    -webkit-transform: translateY(calc(100% - 46px));
+    transform: translateY(calc(100% - 90px));
+    -webkit-transform: translateY(calc(100% - 90px));
   }
 }
 
@@ -523,6 +544,7 @@ form{
 
   .line-title {
     width: 330px;
+    text-align: center;
   }
 
   /* -------- Landing page ------- */
@@ -616,6 +638,7 @@ form{
   align-items: center;
   padding: 50px 0px;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .c-name {
