@@ -7,7 +7,49 @@ const searchInput = document.querySelector("[data-search]")
 let usauniversities = []
 let ukuniversities = []
 
-// //! Searching and displaying the search results
+
+//! rendering results into DOM using data.JSON file
+
+    //! USA
+
+    fetch('./data.json')
+    .then((response) => response.json())
+    .then(data => {
+        usauniversities = data.usa.map(university => {
+            const result = userCardTemplate.content.cloneNode(true).children[0]
+            const uniName = result.querySelector("[uni-name]")
+            let location = result.querySelector('[uni-location]')
+            const uniurl = university.url
+            location.textContent = university.location
+            uniName.textContent = university.name
+            searchResult.append(result)
+            return { name: university.name, location: university.location, country:location , element: result }
+        });
+    });
+
+    //! UK
+
+    // fetch('./data.json')
+    // .then((response) => response.json())
+    // .then(data => {
+    //     usauniversities = data.usa.map(university => {
+    //         const result = userCardTemplate.content.cloneNode(true).children[0]
+    //         const uniName = result.querySelector("[uni-name]")
+    //         let location = result.querySelector('[uni-location]')
+    //         const uniurl = university.url
+    //         let unicountry = ", USA"
+    //         location.textContent = university.location
+    //         location.textContent = location.textContent + unicountry
+    //         uniName.textContent = university.name
+    //         searchResult.append(result)
+    //         return { name: university.name, location: university.location, country:unicountry , element: result }
+    //     });
+    // });
+
+
+
+
+    // //! Searching and displaying the search results
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value.toLowerCase()
     // For tshirts
@@ -28,50 +70,8 @@ searchInput.addEventListener("input", (e) => {
         usauniversities.forEach(user => {
             user.element.classList.add("hide")
         })
-        ukahuniversities.forEach(huser => {
+        ukuniversities.forEach(huser => {
             huser.helement.classList.add("hide")
         })
     }
 })
-
-
-
-
-
-
-
-//! rendering results into DOM using data.JSON file
-
-    //! USA
-
-    fetch('./data.json')
-    .then((response) => response.json())
-    .then(data => {
-        usauniversities = data.usa.map(university => {
-            const result = userCardTemplate.content.cloneNode(true).children[0]
-            const uniName = result.querySelector("[uni-name]")
-            const location = result.querySelector('[uni-location]')
-            const uniurl = university.url
-            location.textContent = university.location
-            uniName.textContent = university.name
-            searchResult.append(result)
-            return { name: university.name, location: university.location, element: result }
-        });
-    });
-
-    //! UK
-
-    // fetch('./data.json')
-    // .then((response) => response.json())
-    // .then(data => {
-    //     ukuniversities = data.uk.map(university => {
-    //         const result = userCardTemplate.content.cloneNode(true).children[0]
-    //         const uniName = result.querySelector("[uni-name]")
-    //         const location = result.querySelector('[uni-location]')
-    //         const uniurl = university.url
-    //         location.textContent = university.location
-    //         uniName.textContent = university.name
-    //         searchResult.append(result)
-    //         return { name: university.name, location: university.location, element: result }
-    //     });
-    // });
