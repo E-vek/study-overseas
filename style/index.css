@@ -3,12 +3,12 @@
 /********* Fonts Face CSS End **********/
 
 body {
-  font-family: Poppins !important;
-  font-weight: 400;
-  margin: 0;
-  width: 100%;
-  background-color: rgb(238, 238, 238);
-  overflow-x: hidden;
+    font-family: Poppins !important;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -50,8 +50,7 @@ nav button:nth-child(1):hover {
 
 .logo {
     cursor: pointer;
-    width: 65px;
-    /* margin-right: 1000px; */
+    border-radius: 50%;
 }
 
 nav {
@@ -145,13 +144,14 @@ nav {
     cursor: pointer;
 }
 
-.results h1{
+.results h1 {
     font-size: 16px;
     margin: 0;
     padding: 0;
     line-height: unset;
     margin-right: 10px;
 }
+
 .results p {
     margin: 0;
     padding: 0;
@@ -250,8 +250,8 @@ h3 {
 }
 
 .line-title::before {
-  width: 100%;
-  background: #20A8F4;
+    width: 100%;
+    background: #20A8F4;
 }
 
 .line-title::after {
