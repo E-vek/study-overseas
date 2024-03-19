@@ -636,7 +636,7 @@
     "uk":[
         {
             "name": "University of Cambridge",
-            "location": "Cambridge, Cambridgeshire",
+            "location": "Cambridge, England, UK",
             "rank": 8,
             "appfee": 70,
             "courses": [
@@ -740,7 +740,7 @@
         },
         {
             "name": "University of Oxford",
-            "location": "Oxford,  Oxfordshire",
+            "location": "Oxford,  England",
             "rank": 5,
             "appfee": 80,
             "courses": [
@@ -846,6 +846,736 @@
             "name": "Imperial College London",
             "location": "South Kensington, London",
             "rank": 13,
+            "appfee": 80,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "King's College London",
+            "location": "Strand, London",
+            "rank": 13,
+            "appfee": 80,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "University of Edinburgh",
+            "location": "Edinburgh, London",
+            "rank": 13,
+            "appfee": 80,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        }
+    ],
+    "australia":[
+        {
+            "name": "University of Melbourne",
+            "location": "Melbourne, Australia",
+            "rank": 27,
+            "appfee": 50,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "University of Sydney",
+            "location": "Sydney, New South Wales, Australia",
+            "rank": 28,
+            "appfee": 60,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "University of Queensland",
+            "location": "Brisbane, Queensland, Australia",
+            "rank": 36,
+            "appfee": 80,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "Monash University",
+            "location": "Victoria, southeastern, Australia ",
+            "rank": 37,
+            "appfee": 80,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "Australian National University",
+            "location": "Canberra, Australia",
+            "rank": 62,
             "appfee": 80,
             "courses": [
                 {

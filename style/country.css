@@ -141,9 +141,9 @@ nav {
   }
 
   .country-banner img{
-    width: 90%;
+    /* width: 90%; */
     border-radius:15PX;
-    height: 600px;
+    margin-top: 110px;
   }
 
   .country-banner {
@@ -158,8 +158,7 @@ nav {
     font-family: Poppins !important;
     font-size: 20px;
     background-color: rgb(219, 217, 217);
-    padding: 15px;
-    
+    padding: 30px;
   }
 
   .about-text img{
@@ -184,6 +183,6 @@ nav {
     flex-direction: row;
     align-items: center;
     margin-right: 10px;
-    background-color: aquamarine;
+    background-color:#d3d3d3;
     border-radius: 10px;
   }
