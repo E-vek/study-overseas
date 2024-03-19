@@ -1,0 +1,636 @@
+{
+    "usa": [
+        {
+            "name": "Harvard University",
+            "location": "Boston, Massachusetts",
+            "rank": 3,
+            "appfee": 90,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "Stanford University",
+            "location": "Stanford, California",
+            "rank": 4,
+            "appfee": 85,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": " Massachusetts Institute of Technology",
+            "location": "Stanford, California",
+            "rank": 2,
+            "appfee": 85,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of engineering",
+                    "degree": "graduate",
+                    "major": "mechanical",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": " Princeton University",
+            "location": "Princeton, New Jersey",
+            "rank": 1,
+            "appfee": 100,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of engineering",
+                    "degree": "graduate",
+                    "major": "mechanical",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": " Yale University",
+            "location": "New Haven, Connecticut",
+            "rank": 5,
+            "appfee": 700,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "data science",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "artifical intelligence",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of engineering",
+                    "degree": "undergraduate",
+                    "major": "mechanical",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of engineering",
+                    "degree": "graduate",
+                    "major": "mechanical",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "graduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        }
+    ]
+}

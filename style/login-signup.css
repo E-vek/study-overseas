@@ -1,0 +1,72 @@
+/******* Fonts Import Start **********/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap');
+
+/********* Fonts Face CSS End **********/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins !important;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    /* background: linear-gradient(to right, #3a7bd5, #3a6073); */
+}
+
+.sign-up-form button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #222;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.login-main{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.form-text{
+    padding: 50px 0px 50px 50px;
+    margin-right: 200px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction:column;
+}
+
+.sign-up-form input{
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form-element a{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.leo input{
+    width: 100%;
+}
+

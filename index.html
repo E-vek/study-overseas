@@ -6,6 +6,7 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/login-signup.css">
 
 </head>
 
@@ -45,7 +46,7 @@
 
     <div class="carousel">
         <ul class="carousel__list">
-            <img class="carousel__item" data-pos="-2" src="assets/australia_banner_811daa24bc.webp"
+            <img class="carousel__item" data-pos="-2" src="assets/australia_banner_811daa24bc.png"
                 style="max-width: 100%;"></li>
             <img class="carousel__item" data-pos="-1" src="assets/canada.jpg"></li>
             <img class="carousel__item" data-pos="0" src="assets/ireland.jpg"></li>
@@ -112,57 +113,76 @@
             <div class="item active"
                 style="background-image:url(assets/harvard.jpg);">
                 <div class="item-desc">
-                    <h3>Dota 2</h3>
-                    <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                        Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+                    <h3>Harvard University</h3>
+                    <p>Harvard University is a private Ivy League research university in Cambridge, Massachusetts. Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States.</p>
                 </div>
             </div>
             <div class="item"
                 style="background-image: url(assets/Hoover-Tower-Stanford-University-California.webp);">
                 <div class="item-desc">
-                    <h3>The Witcher 3</h3>
-                    <p>The Witcher 3 is a multiplayer online battle arena by Valve. The game is a sequel to Defense
-                        of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.
+                    <h3>Stanford University</h3>
+                    <p>Stanford University is a private research university in Stanford, California. It was founded in 1885 by Leland Stanford—a railroad magnate who served as the eighth governor of and then-incumbent senator from California—and his wife, Jane, in memory of their only child, Leland.
                     </p>
                 </div>
             </div>
             <div class="item"
                 style="background-image: url(assets/oxford.jpg);">
                 <div class="item-desc">
-                    <h3>RDR 2</h3>
-                    <p>RDR 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                        Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+                    <h3>University of Oxford</h3>
+                    <p>The University of Oxford is a collegiate research university in Oxford, England. There is evidence of teaching as early as 1096, making it the oldest university in the English-speaking world and the world's second-oldest university in continuous operation.</p>
                 </div>
             </div>
             <div class="item"
                 style="background-image: url(assets/mit.jpeg);">
                 <div class="item-desc">
-                    <h3>PUBG Mobile</h3>
-                    <p>PUBG 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                        Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+                    <h3>MIT</h3>
+                    <p>The Massachusetts Institute of Technology is a private land-grant research university in Cambridge, Massachusetts. Established in 1861, MIT has played a significant role in the development of many areas of modern technology and science.</p>
                 </div>
             </div>
             <div class="item"
                 style="background-image: url(assets/BeckmanInstitute\ California.jpg);">
                 <div class="item-desc">
-                    <h3>Fortnite</h3>
-                    <p>Battle royale where 100 players fight to be the last person standing. which was a
-                        community-created
-                        mod
-                        for Blizzard Entertainment's Warcraft III.</p>
+                    <h3>Imperial College</h3>
+                    <p>Imperial College London is a public research university in London, England. Its history began with Prince Albert, consort of Queen Victoria, who developed his vision for a cultural area that included the Royal Albert Hall, the Victoria and Albert Museum, the Natural History Museum and several royal colleges.</p>
                 </div>
             </div>
             <div class="item"
                 style="background-image: url(assets/cambridge-uni.jpeg);">
                 <div class="item-desc">
-                    <h3>Far Cry 5</h3>
-                    <p>Far Cry 5 is a 2018 first-person shooter game developed by Ubisoft.
-                        which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
+                    <h3>University of Cambridge</h3>
+                    <p>The University of Cambridge is a public collegiate research university in Cambridge, England. Founded in 1209, the University of Cambridge is the world's third-oldest university in continuous operation.</p>
                 </div>
             </div>
         </div>
         </div>
     </section>
+
+        <div class="form">
+            <div class="form-text">
+                <h1>Sign up to create your profile</h1>
+                <h2>Already have a profile? <a href="#" style="text-decoration: none;">sign in.</a></h2>
+            </div>
+            <form class="sign-up-form" action="submit">
+                <div class="form-element" >
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="last Name">
+                </div>
+                <div class="form-element leo">
+                    <input type="number" required placeholder="Phone Number">
+                </div>
+                <div class="form-element leo">
+                    <input type="email" required placeholder="E-mail address">
+                </div>
+                <div class="form-element leo">
+                    <input type="password" required placeholder="Enter password">
+                </div>
+                <div class="form-element">
+                    <button>
+                        Sign in
+                    </button>
+                </div>
+            </form>
+        </div>
 
     <!-- -------------------------------------------Footer------------------------------------------------ -->
     <footer>
@@ -219,9 +239,7 @@
                 <a href="#">About Us<a>
             </div>
         </div>
-    </footer>
-
-
+    </footer> 
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
