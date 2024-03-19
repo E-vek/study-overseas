@@ -371,6 +371,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     backdrop-filter: blur(50px);
+    background-color: #20A8F4;
 }
 
 .fill-form button {
