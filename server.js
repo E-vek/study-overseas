@@ -17,6 +17,12 @@ app.get('/',(req, res) => {
     res.sendFile( __dirname + '/index.html')
 })
 
+app.get('/country',(req, res) => {
+    // res.writeHead(200,{ 'Content-Type':'html' })
+    res.status(200)
+    res.sendFile( __dirname + '/country.html')
+})
+
 
 //! LISTEN
 app.listen(port,() => {
