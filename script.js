@@ -51,7 +51,7 @@ const update = function(newActive) {
     item.dataset.pos = getPos(itemPos, newActivePos)
   });
 
-  console.log(current.dataset.country)  
+//   console.log(current.dataset.country)  w
 };
 
 const getPos = function (current, active) {

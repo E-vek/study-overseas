@@ -637,10 +637,114 @@
     ],
     "uk":[
         {
-            "name": "University of Washington Seattle",
-            "location": "Seattle, Washington, USA",
-            "rank": 6,
-            "appfee": 700,
+            "name": "University of Oxford",
+            "location": "Oxford, UK",
+            "rank": 5,
+            "appfee": 70,
+            "courses": [
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 83000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 65000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "PhD in science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 2,
+                    "fee": 70000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of science",
+                    "degree": "undergraduate",
+                    "major": "computer science",
+                    "duration": 4,
+                    "fee": 93000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of science",
+                    "degree": "graduate",
+                    "major": "computer science",
+                    "duration": 3,
+                    "fee": 88000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 60000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 4,
+                    "fee": 65000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 2,
+                    "fee": 52000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "master's of business administration",
+                    "degree": "undergraduate",
+                    "major": "international business",
+                    "duration": 3,
+                    "fee": 58000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 4,
+                    "fee": 88000,
+                    "coursetype": "fulltime"
+                },
+                {
+                    "coursename": "bachelor's of legislative law",
+                    "degree": "undergraduate",
+                    "major": "criminal justice",
+                    "duration": 5,
+                    "fee": 95000,
+                    "coursetype": "parttime"
+                },
+                {
+                    "coursename": "master's of legislative law",
+                    "degree": "graduate",
+                    "major": "criminal justice",
+                    "duration": 3,
+                    "fee": 75000,
+                    "coursetype": "fulltime"
+                }
+            ]
+        },
+        {
+            "name": "University of Cambridge",
+            "location": "Seattle, Washington, UK",
+            "rank": 8,
+            "appfee": 70,
             "courses": [
                 {
                     "coursename": "bachelor's of science",
@@ -742,7 +846,7 @@
         },
         {
             "name": "Imperial College London",
-            "location": "South Kensington, London",
+            "location": "South Kensington, London, UK",
             "rank": 13,
             "appfee": 80,
             "courses": [
@@ -846,8 +950,8 @@
         },
         {
             "name": "King's College London",
-            "location": "Strand, London",
-            "rank": 13,
+            "location": "Strand, London, UK",
+            "rank": 33,
             "appfee": 80,
             "courses": [
                 {
@@ -950,8 +1054,8 @@
         },
         {
             "name": "University of Edinburgh",
-            "location": "Edinburgh, London",
-            "rank": 13,
+            "location": "Edinburgh, London, UK",
+            "rank": 34,
             "appfee": 80,
             "courses": [
                 {

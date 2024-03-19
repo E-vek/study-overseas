@@ -6,6 +6,7 @@ const searchInput = document.querySelector("[data-search]")
 
 let usauniversities = []
 let ukuniversities = []
+let ausuniversities = []
 
 
 //! rendering results into DOM using data.JSON file
@@ -29,22 +30,37 @@ let ukuniversities = []
 
     //! UK
 
-    // fetch('./data.json')
-    // .then((response) => response.json())
-    // .then(data => {
-    //     usauniversities = data.usa.map(university => {
-    //         const result = userCardTemplate.content.cloneNode(true).children[0]
-    //         const uniName = result.querySelector("[uni-name]")
-    //         let location = result.querySelector('[uni-location]')
-    //         const uniurl = university.url
-    //         let unicountry = ", USA"
-    //         location.textContent = university.location
-    //         location.textContent = location.textContent + unicountry
-    //         uniName.textContent = university.name
-    //         searchResult.append(result)
-    //         return { name: university.name, location: university.location, country:unicountry , element: result }
-    //     });
-    // });
+    fetch('./data.json')
+    .then((response) => response.json())
+    .then(data => {
+        ukuniversities = data.uk.map(university => {
+            const result = userCardTemplate.content.cloneNode(true).children[0]
+            const uniName = result.querySelector("[uni-name]")
+            let location = result.querySelector('[uni-location]')
+            const uniurl = university.url
+            location.textContent = university.location
+            uniName.textContent = university.name
+            searchResult.append(result)
+            return { hname: university.name, location: university.location, country:location , element: result }
+        });
+    });
+    
+    //! UK
+
+    fetch('./data.json')
+    .then((response) => response.json())
+    .then(data => {
+        ausuniversities = data.australia.map(university => {
+            const result = userCardTemplate.content.cloneNode(true).children[0]
+            const uniName = result.querySelector("[uni-name]")
+            let location = result.querySelector('[uni-location]')
+            const uniurl = university.url
+            location.textContent = university.location
+            uniName.textContent = university.name
+            searchResult.append(result)
+            return { hname: university.name, location: university.location, country:location , element: result }
+        });
+    });
 
 
 
@@ -52,18 +68,25 @@ let ukuniversities = []
     // //! Searching and displaying the search results
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value.toLowerCase()
-    // For tshirts
+    // For usa
     if (value !== "") {
-        usauniversities.forEach(user => {
-            const isVisible = user.name.toLowerCase().includes(value) || user.location.toLowerCase().includes(value)
-            user.element.classList.toggle("hide", !isVisible)
+        usauniversities.forEach(university => {
+            const isVisible = university.name.toLowerCase().includes(value) || university.location.toLowerCase().includes(value)
+            university.element.classList.toggle("hide", !isVisible)
         })
     }
-    // For hoodies
+    // For uk
     if (value !== "") {
-        ukuniversities.forEach(huser => {
-            const ishVisible = huser.hname.toLowerCase().includes(value) || huser.location.toLowerCase().includes(value)
-            huser.helement.classList.toggle("hide", !ishVisible)
+        ukuniversities.forEach(university => {
+            const ishVisible = university.hname.toLowerCase().includes(value) || university.location.toLowerCase().includes(value)
+            university.element.classList.toggle("hide", !ishVisible)
+        })
+    }
+    // For aus
+    if (value !== "") {
+        ausuniversities.forEach(university => {
+            const ishVisible = university.hname.toLowerCase().includes(value) || university.location.toLowerCase().includes(value)
+            university.element.classList.toggle("hide", !ishVisible)
         })
     }
     else if (value == "") {
@@ -71,7 +94,10 @@ searchInput.addEventListener("input", (e) => {
             user.element.classList.add("hide")
         })
         ukuniversities.forEach(huser => {
-            huser.helement.classList.add("hide")
+            huser.element.classList.add("hide")
+        })
+        ausuniversities.forEach(huser => {
+            huser.element.classList.add("hide")
         })
     }
 })
