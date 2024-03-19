@@ -7,9 +7,7 @@ body {
   font-weight: 400;
   margin: 0;
   width: 100%;
-  /* background: linear-gradient(180deg, rgb(236, 213, 232) 0%, rgb(50, 112, 118) 100%); */
-  background-color: #20A8F4;
-  /* background: linear-gradient(115deg, #3c8ce7, #00eaff); */
+  background-color: rgb(238, 238, 238);
   overflow-x: hidden;
 }
 
@@ -233,7 +231,7 @@ h3 {
 
 .line-title::before {
   width: 100%;
-  background: #f2f2f2;
+  background: #20A8F4;
 }
 
 .line-title::after {
@@ -354,6 +352,8 @@ h3 {
   flex-direction: row;
   justify-content: space-between;
   backdrop-filter: blur(50px);
+  background-color: #20A8F4;
+
 }
 
 .fill-form button {
