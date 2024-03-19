@@ -1,6 +1,6 @@
 const searchInput = document.querySelector("[data-search]")
 
-let users = []
+let universities = []
 let husers = []
 
 //! Searching and displaying the search results
@@ -37,10 +37,10 @@ searchInput.addEventListener("input", (e) => {
 
 //! Inserting cards into DOM using products.JSON file
 // for tshirts
-fetch('./products/data/products.json')
+fetch('./data.json')
     .then((response) => response.json())
     .then(data => {
-        users = data.tshirt.map(product => {
+        universities = data.usa.map(university => {
             const card = userCardTemplate.content.cloneNode(true).children[0]
             const productImage = card.querySelector("[product-image]")
             const header = card.querySelector('[data-name]')
