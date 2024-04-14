@@ -11,9 +11,9 @@ let ausuniversities = []
 
 //! rendering results into DOM using data.JSON file
 
-    //! USA
+//! USA
 
-    fetch('./data.json')
+fetch('./data.json')
     .then((response) => response.json())
     .then(data => {
         usauniversities = data.usa.map(university => {
@@ -24,13 +24,13 @@ let ausuniversities = []
             location.textContent = university.location
             uniName.textContent = university.name
             searchResult.append(result)
-            return { name: university.name, location: university.location, country:location , element: result }
+            return { name: university.name, location: university.location, country: location, element: result }
         });
     });
 
-    //! UK
+//! UK
 
-    fetch('./data.json')
+fetch('./data.json')
     .then((response) => response.json())
     .then(data => {
         ukuniversities = data.uk.map(university => {
@@ -41,13 +41,13 @@ let ausuniversities = []
             location.textContent = university.location
             uniName.textContent = university.name
             searchResult.append(result)
-            return { hname: university.name, location: university.location, country:location , element: result }
+            return { hname: university.name, location: university.location, country: location, element: result }
         });
     });
-    
-    //! UK
 
-    fetch('./data.json')
+//! UK
+
+fetch('./data.json')
     .then((response) => response.json())
     .then(data => {
         ausuniversities = data.australia.map(university => {
@@ -58,16 +58,17 @@ let ausuniversities = []
             location.textContent = university.location
             uniName.textContent = university.name
             searchResult.append(result)
-            return { hname: university.name, location: university.location, country:location , element: result }
+            return { hname: university.name, location: university.location, country: location, element: result }
         });
     });
 
 
 
 
-    // //! Searching and displaying the search results
+//! Searching and displaying the search results
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value.toLowerCase()
+    document.getElementById('noresultfound').classList.add('hide')
     // For usa
     if (value !== "") {
         usauniversities.forEach(university => {
@@ -99,5 +100,22 @@ searchInput.addEventListener("input", (e) => {
         ausuniversities.forEach(huser => {
             huser.element.classList.add("hide")
         })
+    }
+    let searchchilds = searchResult.children
+    let nores = 1
+    for (let index = 0; index < searchchilds.length; index++) {
+        document.getElementById('noresultfound').classList.add('hide')
+        const element = searchchilds[index];
+        if (!element.classList.contains('hide')) {
+            nores = 0
+        }
+        console.log(nores)
+    }
+    if (nores) {
+        document.getElementById('noresultfound').classList.remove('hide')
+    }
+
+    if (value == "") {
+        document.getElementById('noresultfound').classList.add('hide')
     }
 })

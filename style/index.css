@@ -41,12 +41,6 @@ nav button:nth-child(1):hover {
     background: rgb(237, 237, 237);
 }
 
-.language-btn {
-    display: inline-flex;
-    align-items: center;
-    background: white;
-    color: black;
-}
 
 .logo {
     cursor: pointer;

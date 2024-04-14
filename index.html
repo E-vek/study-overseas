@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/login-signup.css">
+    <link rel="stylesheet" href="style/register.css">
 
 </head>
 
@@ -22,8 +23,7 @@
             <a href="#">Wishlist</a>
         </div>
         <div class="nav-left">
-            <button class="language-btn">English</button>
-            <button>Sign In</button>
+            <button onclick="scrolltoregister()">Register</button>
         </div>
     </nav>
     <div class="header-contain">
@@ -35,22 +35,17 @@
         <form class="email-signup">
             <input data-search type="search" placeholder="Search Here" required>
             <div search-results class="search-results-container">
-                <!-- <div class="results hide">
-                    <h1 class="uni-name">New York University</h1>
-                    <p class="location" data-name>New york, USA</p>
+                <div class="results hide" id="noresultfound">
+                    <h1 class="uni-name">No result found.</h1>
                 </div>
-                <div class="results hide">
-                    <h1 class="uni-name">New York University</h1>
-                    <p class="location" data-name>New york, USA</p>
-                </div> -->
-                <template data-user-template>
-                    <div class="results hide">
-                        <h1 class="uni-name" uni-name product-image>
-                        </h1>
-                        <p class="location" uni-location></p>
-                    </div>
-                </template>
             </div>
+            <template data-user-template>
+                <div class="results hide">
+                    <h1 class="uni-name" uni-name product-image>
+                    </h1>
+                    <p class="location" uni-location></p>
+                </div>
+            </template>
 
 
 
@@ -70,12 +65,15 @@
     </div>
     <div class="carousel">
         <ul class="carousel__list">
-            <img onclick="getcountry(`aus`)" class="carousel__item" data-country="aus" data-pos="-2" src="assets/australia_banner_811daa24bc.png"
-                style="max-width: 100%;">
-            <img onclick="getcountry(`can`)" class="carousel__item" data-country="can" data-pos="-1" src="assets/canada.jpg">
-            <img onclick="getcountry(`ire`)" class="carousel__item" data-country="ire" data-pos="0" src="assets/ireland.jpg">
+            <img onclick="getcountry(`aus`)" class="carousel__item" data-country="aus" data-pos="-2"
+                src="assets/australia_banner_811daa24bc.png" style="max-width: 100%;">
+            <img onclick="getcountry(`can`)" class="carousel__item" data-country="can" data-pos="-1"
+                src="assets/canada.jpg">
+            <img onclick="getcountry(`ire`)" class="carousel__item" data-country="ire" data-pos="0"
+                src="assets/ireland.jpg">
             <img onclick="getcountry(`uk`)" class="carousel__item" data-country="uk" data-pos="1" src="assets/UK.png">
-            <img onclick="getcountry(`usa`)" class="carousel__item" data-country="usa" data-pos="2" src="assets/united_states_gallery_8_69d0fbbae5.jpg">
+            <img onclick="getcountry(`usa`)" class="carousel__item" data-country="usa" data-pos="2"
+                src="assets/united_states_gallery_8_69d0fbbae5.jpg">
         </ul>
     </div>
 
@@ -196,24 +194,24 @@
             <h1>Sign up to create your profile</h1>
             <h2>Already have a profile? <a href="#" style="text-decoration: none;">log in.</a></h2>
         </div>
-        <form class="sign-up-form" action="submit">
+        <form class="sign-up-form" id="signinform">
             <div class="form-element">
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="last Name">
+                <input name="firstname" type="text" required placeholder="First Name">
+                <input name="lastname" type="text" required placeholder="last Name">
             </div>
             <div class="form-element leo">
-                <input type="number" required placeholder="Phone Number">
+                <input name="phonenumber" type="tel" pattern="[0-9]{10}"
+                    title="Invaid Phone number. Must be 10 characters long." required placeholder="Phone Number">
             </div>
             <div class="form-element leo">
-                <input type="email" required placeholder="E-mail address">
+                <input name="email" type="email" required placeholder="E-mail address">
             </div>
             <div class="form-element leo">
-                <input type="password" required placeholder="Enter password">
+                <input name="password" type="password" required placeholder="Enter password">
             </div>
+            <div class="change" id="errorlog">ERR - User already registered!</div>
             <div class="form-element">
-                <button type="submit">
-                    Sign up
-                </button>
+                <button type="submit">Register</button>
             </div>
         </form>
     </div>
@@ -288,5 +286,18 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="script.js"></script>
 <script src="search.js"></script>
+<script src="register.js"></script>
+<script>
+    function scrolltoregister() {
+        if (window.pageYOffset < 3675) {
+            let scrollto = 3675 - window.pageYOffset;
+            window.scrollBy({ top: scrollto, behavior: 'smooth' })
+        }
+        else if (window.pageYOffset > 3675) {
+            let scrollto = window.pageYOffset - 3675;
+            window.scrollBy({ top: -scrollto, behavior: 'smooth' })
+        }
+    }
+</script>
 
 </html>
